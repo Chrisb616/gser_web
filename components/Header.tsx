@@ -21,7 +21,7 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <AppBar position="static" color="default" elevation={1}>
+    <AppBar position="static" color="primary" elevation={0}>
       <Toolbar sx={{ gap: 1, justifyContent: "space-evenly", flexWrap: "wrap" }}>
         <Box
           component={Link}
@@ -54,7 +54,7 @@ export default function Header() {
                 key={href}
                 component={Link}
                 href={href}
-                color={active ? "primary" : "inherit"}
+                color={active ? "secondary" : "inherit"}
                 variant={active ? "contained" : "text"}
               >
                 {label}

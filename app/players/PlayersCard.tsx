@@ -35,7 +35,7 @@ export default function PlayersCard({ player }: { player: Player }) {
         }}
       >
         <Box>
-          <Typography variant="h6" component="h2" gutterBottom>
+          <Typography variant="h6" component="h2" gutterBottom color="primary">
             {player.name}
           </Typography>
           <Typography variant="body2" color="text.secondary">
@@ -47,13 +47,13 @@ export default function PlayersCard({ player }: { player: Player }) {
           target="_blank"
           rel="noopener noreferrer"
           underline="hover"
+          color="highlight"
           aria-label={`${player.name} on Instagram`}
           sx={{
             mt: "auto",
             display: "inline-flex",
             alignItems: "center",
             gap: 0.75,
-            color: "text.primary",
             width: "fit-content",
           }}
         >

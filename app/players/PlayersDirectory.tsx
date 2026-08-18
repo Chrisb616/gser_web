@@ -76,7 +76,8 @@ export default function PlayersDirectory({ players }: { players: Player[] }) {
       >
         <Typography
           variant="overline"
-          sx={{ px: 1, color: "text.secondary", display: "block" }}
+          color="tertiary"
+          sx={{ px: 1, display: "block" }}
         >
           Contents
         </Typography>
@@ -86,7 +87,16 @@ export default function PlayersDirectory({ players }: { players: Player[] }) {
               key={player.id}
               selected={activeId === player.id}
               onClick={() => scrollTo(player.id)}
-              sx={{ borderRadius: 1 }}
+              sx={{
+                borderRadius: 1,
+                "&.Mui-selected": {
+                  bgcolor: "tertiary.main",
+                  color: "tertiary.contrastText",
+                  "&:hover": {
+                    bgcolor: "tertiary.dark",
+                  },
+                },
+              }}
             >
               <ListItemText primary={player.name} />
             </ListItemButton>

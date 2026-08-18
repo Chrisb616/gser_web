@@ -1,4 +1,5 @@
 import Container from "@mui/material/Container";
+import Link from "@mui/material/Link";
 import Typography from "@mui/material/Typography";
 
 export default function Info() {
@@ -7,8 +8,11 @@ export default function Info() {
       <Typography variant="h3" component="h1" gutterBottom sx={{ fontWeight: 700 }}>
         Info
       </Typography>
-      <Typography variant="body1">
-        Contact us at gserpod@gmail.com
+      <Typography variant="body1" color="text.secondary">
+        Contact us at{" "}
+        <Link href="mailto:gserpod@gmail.com" underline="hover">
+          gserpod@gmail.com
+        </Link>
       </Typography>
     </Container>
   );

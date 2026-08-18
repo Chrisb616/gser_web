@@ -7,7 +7,7 @@ export default function Visuals() {
       <Typography variant="h3" component="h1" gutterBottom sx={{ fontWeight: 700 }}>
         Visuals & Maps
       </Typography>
-      <Typography variant="h4" component="h1" gutterBottom sx={{ fontWeight: 700 }}>
+      <Typography variant="h4" component="h2" gutterBottom sx={{ fontWeight: 700 }} color="secondary">
         Coming Soon!
       </Typography>
     </Container>
