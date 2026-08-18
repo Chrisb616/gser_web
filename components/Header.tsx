@@ -55,7 +55,18 @@ export default function Header() {
                 component={Link}
                 href={href}
                 color={active ? "secondary" : "inherit"}
-                variant={active ? "contained" : "text"}
+                variant="contained"
+                disableElevation
+                sx={
+                  active
+                    ? undefined
+                    : {
+                        bgcolor: "transparent",
+                        "&:hover": {
+                          bgcolor: "action.hover",
+                        },
+                      }
+                }
               >
                 {label}
               </Button>
