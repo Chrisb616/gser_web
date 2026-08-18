@@ -74,13 +74,6 @@ export default function PlayersDirectory({ players }: { players: Player[] }) {
           p: 1,
         }}
       >
-        <Typography
-          variant="overline"
-          color="tertiary"
-          sx={{ px: 1, display: "block" }}
-        >
-          Contents
-        </Typography>
         <List dense disablePadding>
           {players.map((player) => (
             <ListItemButton

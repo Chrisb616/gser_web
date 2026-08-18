@@ -23,6 +23,9 @@ export default function PlayersCard({ player }: { player: Player }) {
         alignItems: "center",
         height: { xs: 200, md: 320 },
         overflow: "hidden",
+        bgcolor: "background.main",
+        color: "secondary.main",
+        borderColor: "secondary.main",
       }}
     >
       <CardContent
@@ -38,7 +41,7 @@ export default function PlayersCard({ player }: { player: Player }) {
           <Typography variant="h6" component="h2" gutterBottom color="primary">
             {player.name}
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2" color="primary">
             {player.desc}
           </Typography>
         </Box>
@@ -63,7 +66,7 @@ export default function PlayersCard({ player }: { player: Player }) {
             alt=""
             sx={{ width: 18, height: 18, display: "block" }}
           />
-          <Typography variant="body2" component="span" sx={{ fontWeight: 700 }}>
+          <Typography variant="body2" component="span" color="inherit" sx={{ fontWeight: 700 }}>
             @{player.instagram}
           </Typography>
         </Link>
