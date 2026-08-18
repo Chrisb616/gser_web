@@ -1,0 +1,37 @@
+[
+  {
+    "id": "monica-baker",
+    "name": "Monica Baker",
+    "desc": "Monica plays Vyrith Rivertail",
+    "image": "resources/images/monica_00.jpg",
+    "instagram": "monicacbaker"
+  },
+  {
+    "id": "patrick-comeau",
+    "name": "Patrick Comeau",
+    "desc": "Patrick plays Knimberly",
+    "image": "resources/images/pat_00.jpg",
+    "instagram": "comeauver"
+  },
+  {
+    "id": "jonathan-graziano",
+    "name": "Jonathan Graziano",
+    "desc": "Jonathan plays Bris Rubble",
+    "image": "resources/images/jon_00.jpg",
+    "instagram": "jongraz"
+  },
+  {
+    "id": "jeffrey-rizzi",
+    "name": "Jeffrey Rizzi",
+    "desc": "Jeffrey plays Jaeff Braekenridge",
+    "image": "resources/images/jeff_00.jpg",
+    "instagram": "jurffrizzi"
+  },
+  {
+    "id": "jamie-worthington",
+    "name": "Jamie Worthington",
+    "desc": "Jamie is Dungeena Masters, the GM of the story",
+    "image": "resources/images/jamie_00.jpg",
+    "instagram": "dungeena_masters"
+  }
+]
